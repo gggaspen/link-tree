@@ -1,0 +1,41 @@
+.linkContainer {
+    cursor: pointer;
+    color: white !important;
+    font-size: 4em;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 90px;
+    font-size: 18px;
+    margin: 1em 0;
+}
+
+.linkContainer:hover {
+    background: #222;
+    border-color: #eee;
+}
+
+.linkContainer figure {
+    height: 50px;
+    width: 60px;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.linkContainer figure img {
+    height: auto;
+    width: 100%;
+}
+
+.nameSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
